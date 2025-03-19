@@ -37,7 +37,7 @@ const Navbar = (props: IProps) => {
   return (
     <div
       className={`${
-        isScrolled ? " bg-white dark:bg-black" : ""
+        isScrolled ? "bg-white dark:bg-black" : "bg-transparent"
       } fixed max-w-[1920px] w-full top-0 z-[1000] transition-all duration-300 h-[12vh]`}
     >
       <div className="flex items-center justify-between xl:w-[80%] w-[90%] h-full mx-auto">
